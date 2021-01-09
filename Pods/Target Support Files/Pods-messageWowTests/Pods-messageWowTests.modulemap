@@ -1,0 +1,6 @@
+framework module Pods_messageWowTests {
+  umbrella header "Pods-messageWowTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

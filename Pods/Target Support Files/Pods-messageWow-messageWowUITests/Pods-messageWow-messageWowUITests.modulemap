@@ -1,0 +1,6 @@
+framework module Pods_messageWow_messageWowUITests {
+  umbrella header "Pods-messageWow-messageWowUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

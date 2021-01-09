@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,6 +22,11 @@
 		55EB10E725A9B0F900F6A929 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EB10E625A9B0F900F6A929 /* NewConversationViewController.swift */; };
 		55EB10EC25A9B11800F6A929 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EB10EB25A9B11800F6A929 /* ProfileViewController.swift */; };
 		55EB110125A9B72F00F6A929 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EB110025A9B72F00F6A929 /* Extensions.swift */; };
+		55EB112025A9CD2000F6A929 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55EB111F25A9CD2000F6A929 /* GoogleService-Info.plist */; };
+		55EB112825A9D5E200F6A929 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EB112725A9D5E200F6A929 /* DatabaseManager.swift */; };
+		57C9353C8E547AD697098BF9 /* Pods_messageWowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEEC0D5C529B45BAC0D5915 /* Pods_messageWowTests.framework */; };
+		6EF1219C22DA277B8E775DBE /* Pods_messageWow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B1F4DC0C973E970EC13BF6 /* Pods_messageWow.framework */; };
+		BED61BF7B7CC3EC5ECE53D63 /* Pods_messageWow_messageWowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F244B2CC4A27B322B58868AD /* Pods_messageWow_messageWowUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		058A20ADA0FEAB6248AA8DCF /* Pods-messageWow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-messageWow.debug.xcconfig"; path = "Target Support Files/Pods-messageWow/Pods-messageWow.debug.xcconfig"; sourceTree = "<group>"; };
+		0F3A9EF1C75C983E3BA59CC5 /* Pods-messageWow-messageWowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-messageWow-messageWowUITests.debug.xcconfig"; path = "Target Support Files/Pods-messageWow-messageWowUITests/Pods-messageWow-messageWowUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		55EB109025A9ADF400F6A929 /* messageWow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = messageWow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EB109325A9ADF400F6A929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55EB109525A9ADF400F6A929 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +70,15 @@
 		55EB10E625A9B0F900F6A929 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		55EB10EB25A9B11800F6A929 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		55EB110025A9B72F00F6A929 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		55EB111F25A9CD2000F6A929 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55EB112725A9D5E200F6A929 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		999200A02C5D7B5ED8C2DBDC /* Pods-messageWowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-messageWowTests.debug.xcconfig"; path = "Target Support Files/Pods-messageWowTests/Pods-messageWowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A99F91BCB2390175B528D838 /* Pods-messageWow-messageWowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-messageWow-messageWowUITests.release.xcconfig"; path = "Target Support Files/Pods-messageWow-messageWowUITests/Pods-messageWow-messageWowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C66BC5FCABBDA520488AF482 /* Pods-messageWowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-messageWowTests.release.xcconfig"; path = "Target Support Files/Pods-messageWowTests/Pods-messageWowTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4B1F4DC0C973E970EC13BF6 /* Pods_messageWow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_messageWow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64405C439FE40A24EC02B95 /* Pods-messageWow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-messageWow.release.xcconfig"; path = "Target Support Files/Pods-messageWow/Pods-messageWow.release.xcconfig"; sourceTree = "<group>"; };
+		EBEEC0D5C529B45BAC0D5915 /* Pods_messageWowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_messageWowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F244B2CC4A27B322B58868AD /* Pods_messageWow_messageWowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_messageWow_messageWowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF1219C22DA277B8E775DBE /* Pods_messageWow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C9353C8E547AD697098BF9 /* Pods_messageWowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED61BF7B7CC3EC5ECE53D63 /* Pods_messageWow_messageWowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +116,8 @@
 				55EB10A925A9ADF700F6A929 /* messageWowTests */,
 				55EB10B425A9ADF700F6A929 /* messageWowUITests */,
 				55EB109125A9ADF400F6A929 /* Products */,
+				E009A5812BF161DC448D6088 /* Pods */,
+				6B8B6CEBB26498C73B04E7C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +140,7 @@
 				55EB10CC25A9AE2300F6A929 /* Views */,
 				55EB10CE25A9AE7600F6A929 /* Controllers */,
 				55EB10A125A9ADF600F6A929 /* Info.plist */,
+				55EB111F25A9CD2000F6A929 /* GoogleService-Info.plist */,
 			);
 			path = messageWow;
 			sourceTree = "<group>";
@@ -147,6 +169,7 @@
 				55EB109325A9ADF400F6A929 /* AppDelegate.swift */,
 				55EB109525A9ADF400F6A929 /* SceneDelegate.swift */,
 				55EB110025A9B72F00F6A929 /* Extensions.swift */,
+				55EB112725A9D5E200F6A929 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -205,6 +228,29 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		6B8B6CEBB26498C73B04E7C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4B1F4DC0C973E970EC13BF6 /* Pods_messageWow.framework */,
+				F244B2CC4A27B322B58868AD /* Pods_messageWow_messageWowUITests.framework */,
+				EBEEC0D5C529B45BAC0D5915 /* Pods_messageWowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E009A5812BF161DC448D6088 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				058A20ADA0FEAB6248AA8DCF /* Pods-messageWow.debug.xcconfig */,
+				D64405C439FE40A24EC02B95 /* Pods-messageWow.release.xcconfig */,
+				0F3A9EF1C75C983E3BA59CC5 /* Pods-messageWow-messageWowUITests.debug.xcconfig */,
+				A99F91BCB2390175B528D838 /* Pods-messageWow-messageWowUITests.release.xcconfig */,
+				999200A02C5D7B5ED8C2DBDC /* Pods-messageWowTests.debug.xcconfig */,
+				C66BC5FCABBDA520488AF482 /* Pods-messageWowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55EB10BA25A9ADF700F6A929 /* Build configuration list for PBXNativeTarget "messageWow" */;
 			buildPhases = (
+				CD5CD04A6156E68C326D0A08 /* [CP] Check Pods Manifest.lock */,
 				55EB108C25A9ADF400F6A929 /* Sources */,
 				55EB108D25A9ADF400F6A929 /* Frameworks */,
 				55EB108E25A9ADF400F6A929 /* Resources */,
+				2F28F144BB1CCBB1ED9807F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55EB10BD25A9ADF700F6A929 /* Build configuration list for PBXNativeTarget "messageWowTests" */;
 			buildPhases = (
+				1E6B8B8739E9DFCBF9D14F2B /* [CP] Check Pods Manifest.lock */,
 				55EB10A225A9ADF700F6A929 /* Sources */,
 				55EB10A325A9ADF700F6A929 /* Frameworks */,
 				55EB10A425A9ADF700F6A929 /* Resources */,
@@ -247,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55EB10C025A9ADF700F6A929 /* Build configuration list for PBXNativeTarget "messageWowUITests" */;
 			buildPhases = (
+				33B21CE25588EB440C866737 /* [CP] Check Pods Manifest.lock */,
 				55EB10AD25A9ADF700F6A929 /* Sources */,
 				55EB10AE25A9ADF700F6A929 /* Frameworks */,
 				55EB10AF25A9ADF700F6A929 /* Resources */,
+				AB64E7143C4E5590AA23E972 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -310,6 +361,7 @@
 			files = (
 				55EB10A025A9ADF600F6A929 /* LaunchScreen.storyboard in Resources */,
 				55EB109D25A9ADF600F6A929 /* Assets.xcassets in Resources */,
+				55EB112025A9CD2000F6A929 /* GoogleService-Info.plist in Resources */,
 				55EB109B25A9ADF400F6A929 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,12 +382,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E6B8B8739E9DFCBF9D14F2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-messageWowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F28F144BB1CCBB1ED9807F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-messageWow/Pods-messageWow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-messageWow/Pods-messageWow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-messageWow/Pods-messageWow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33B21CE25588EB440C866737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-messageWow-messageWowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB64E7143C4E5590AA23E972 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-messageWow-messageWowUITests/Pods-messageWow-messageWowUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-messageWow-messageWowUITests/Pods-messageWow-messageWowUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-messageWow-messageWowUITests/Pods-messageWow-messageWowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5CD04A6156E68C326D0A08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-messageWow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55EB108C25A9ADF400F6A929 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				55EB10D325A9B06E00F6A929 /* LoginViewController.swift in Sources */,
+				55EB112825A9D5E200F6A929 /* DatabaseManager.swift in Sources */,
 				55EB10D825A9B08500F6A929 /* RegisterViewController.swift in Sources */,
 				55EB10E725A9B0F900F6A929 /* NewConversationViewController.swift in Sources */,
 				55EB109825A9ADF400F6A929 /* ConversationsViewController.swift in Sources */,
@@ -517,6 +673,7 @@
 		};
 		55EB10BB25A9ADF700F6A929 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 058A20ADA0FEAB6248AA8DCF /* Pods-messageWow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -536,6 +693,7 @@
 		};
 		55EB10BC25A9ADF700F6A929 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64405C439FE40A24EC02B95 /* Pods-messageWow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -555,6 +713,7 @@
 		};
 		55EB10BE25A9ADF700F6A929 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999200A02C5D7B5ED8C2DBDC /* Pods-messageWowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -577,6 +736,7 @@
 		};
 		55EB10BF25A9ADF700F6A929 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66BC5FCABBDA520488AF482 /* Pods-messageWowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -599,6 +759,7 @@
 		};
 		55EB10C125A9ADF700F6A929 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3A9EF1C75C983E3BA59CC5 /* Pods-messageWow-messageWowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -619,6 +780,7 @@
 		};
 		55EB10C225A9ADF700F6A929 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99F91BCB2390175B528D838 /* Pods-messageWow-messageWowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

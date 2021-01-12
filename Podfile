@@ -6,10 +6,17 @@ target 'messageWow' do
   use_frameworks!
 
   # Pods for messageWow
+  
+#Firebase
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
-  
+
+#Facebook
+pod 'FBSDKLoginKit'
+
+#Google
+pod 'GoogleSignIn'
   
   target 'messageWowTests' do
     inherit! :search_paths
